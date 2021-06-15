@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
-  
+
   }
   
   body {
@@ -11,17 +10,7 @@
     flex-direction: column;
     align-items: center;
   }
-  header {
-    width: 100%;
-    height: 500px;
-    background-image: url(img/sfondo1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-  }
+
   
   main {
     flex-grow: 1;
@@ -30,37 +19,64 @@
     align-items: center;
     width: 100%;
   }
+
+  /* div per creare i margini */
   
   .div-margin {
-    width: 80%;
-    margin: 0, 10%;
+    width: 60%;
+    margin: 0, auto;
+  }
+
+  /* parte superiore della pagina */
+
+  .jumbotron {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/sfondo1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
   }
   
   .logo {
-    width: 50px;
+    width: 100px;
   }
   
   .logo-login {
     display: flex;
     justify-content: space-between;
+    margin-top: 15px;
+    width: 560px;
+    border: 1px solid black;
+    align-items: center;
   }
   
   .blink {
     background-color: #28CCBC;
     padding: 5px;
+    height: 35px;
+    width: 150px;
   }
   
   .wellcome {
     display: flex;
     flex-direction: column;
     height: 100%;
-  
+    justify-content: space-between;
   }
+
+    .title-research {
+        margin-bottom: 30px;
+        
+    }
   
-  .be-smart {
+    .title-research h1 {
+        margin-bottom: 30px;
+    }
   
-    width: 350px;
-  }
   
   .main-sec-1 {
   
@@ -73,7 +89,13 @@
     width: 560px;
     height: 170px;
     border: 1px solid black;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+    padding: 32px;
   }
+
+  
   
   .main-sec-2-container {
     height: 750px;
