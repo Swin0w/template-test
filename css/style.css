@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< Updated upstream
   
   
+=======
+
+>>>>>>> Stashed changes
   }
   
   body {
@@ -11,6 +15,7 @@
     flex-direction: column;
     align-items: center;
   }
+<<<<<<< Updated upstream
   header {
     width: 100%;
     height: 500px;
@@ -22,6 +27,9 @@
     display: flex;
     justify-content: center;
   }
+=======
+
+>>>>>>> Stashed changes
   
   main {
     flex-grow: 1;
@@ -30,6 +38,7 @@
     align-items: center;
     width: 100%;
   }
+<<<<<<< Updated upstream
   
   .div-margin {
     width: 80%;
@@ -38,22 +47,61 @@
   
   .logo {
     width: 50px;
+=======
+
+  /* div per creare i margini */
+  
+  .div-margin {
+    width: 60%;
+    margin: 0, auto;
+  }
+
+  /* parte superiore della pagina */
+
+  .jumbotron {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/sfondo1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 100px;
+>>>>>>> Stashed changes
   }
   
   .logo-login {
     display: flex;
     justify-content: space-between;
+<<<<<<< Updated upstream
+=======
+    margin-top: 15px;
+    width: 560px;
+    border: 1px solid black;
+    align-items: center;
+>>>>>>> Stashed changes
   }
   
   .blink {
     background-color: #28CCBC;
     padding: 5px;
+<<<<<<< Updated upstream
+=======
+    height: 35px;
+    width: 150px;
+>>>>>>> Stashed changes
   }
   
   .wellcome {
     display: flex;
     flex-direction: column;
     height: 100%;
+<<<<<<< Updated upstream
   
   }
   
@@ -61,6 +109,20 @@
   
     width: 350px;
   }
+=======
+    justify-content: space-between;
+  }
+
+    .title-research {
+        margin-bottom: 30px;
+        
+    }
+  
+    .title-research h1 {
+        margin-bottom: 30px;
+    }
+  
+>>>>>>> Stashed changes
   
   .main-sec-1 {
   
@@ -73,7 +135,17 @@
     width: 560px;
     height: 170px;
     border: 1px solid black;
+<<<<<<< Updated upstream
   }
+=======
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+    padding: 32px;
+  }
+
+  
+>>>>>>> Stashed changes
   
   .main-sec-2-container {
     height: 750px;
@@ -100,4 +172,9 @@
     width: 100%;
     height: 500px;
     background-color: silver;
+<<<<<<< Updated upstream
   }
+=======
+  }
+  
+>>>>>>> Stashed changes
