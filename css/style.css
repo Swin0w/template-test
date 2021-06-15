@@ -2,16 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-  
-  
-=======
 
->>>>>>> Stashed changes
-=======
-
->>>>>>> jacopoBranch
   }
   
   body {
@@ -19,25 +10,7 @@
     flex-direction: column;
     align-items: center;
   }
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-  header {
-    width: 100%;
-    height: 500px;
-    background-image: url(img/sfondo1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-  }
-=======
 
->>>>>>> Stashed changes
-=======
-
->>>>>>> jacopoBranch
   
   main {
     flex-grow: 1;
@@ -46,36 +19,6 @@
     align-items: center;
     width: 100%;
   }
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-
-  /* div per creare i margini */
->>>>>>> jacopoBranch
-  
-  .div-margin {
-    width: 60%;
-    margin: 0, auto;
-  }
-
-  /* parte superiore della pagina */
-
-  .jumbotron {
-    width: 100%;
-    height: 500px;
-    background-image: url(../img/sfondo1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .logo {
-<<<<<<< HEAD
-    width: 50px;
-=======
 
   /* div per creare i margini */
   
@@ -100,70 +43,28 @@
   
   .logo {
     width: 100px;
->>>>>>> Stashed changes
-=======
-    width: 100px;
->>>>>>> jacopoBranch
   }
   
   .logo-login {
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> jacopoBranch
     margin-top: 15px;
     width: 560px;
     border: 1px solid black;
     align-items: center;
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
->>>>>>> jacopoBranch
   }
   
   .blink {
     background-color: #28CCBC;
     padding: 5px;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
     height: 35px;
     width: 150px;
->>>>>>> Stashed changes
-=======
-    height: 35px;
-    width: 150px;
->>>>>>> jacopoBranch
   }
   
   .wellcome {
     display: flex;
     flex-direction: column;
     height: 100%;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-  
-=======
-    justify-content: space-between;
->>>>>>> jacopoBranch
-  }
-
-    .title-research {
-        margin-bottom: 30px;
-        
-    }
-  
-    .title-research h1 {
-        margin-bottom: 30px;
-    }
-  
-<<<<<<< HEAD
-    width: 350px;
-  }
-=======
     justify-content: space-between;
   }
 
@@ -176,9 +77,6 @@
         margin-bottom: 30px;
     }
   
->>>>>>> Stashed changes
-=======
->>>>>>> jacopoBranch
   
   .main-sec-1 {
   
@@ -191,10 +89,6 @@
     width: 560px;
     height: 170px;
     border: 1px solid black;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-  }
-=======
     display: flex;
         flex-direction: column;
         justify-content: center;
@@ -202,16 +96,6 @@
   }
 
   
->>>>>>> Stashed changes
-=======
-    display: flex;
-        flex-direction: column;
-        justify-content: center;
-    padding: 32px;
-  }
-
-  
->>>>>>> jacopoBranch
   
   .main-sec-2-container {
     height: 750px;
@@ -238,9 +122,4 @@
     width: 100%;
     height: 500px;
     background-color: silver;
-<<<<<<< Updated upstream
   }
-=======
-  }
-  
->>>>>>> Stashed changes
